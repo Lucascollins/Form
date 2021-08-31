@@ -14,15 +14,12 @@ function verificarDados() {
     var passwordDados = password.value;
 
     if (userDados === '') {
-        forma.username.focus;
         return false;
 
     } else if (emailDados === '') {
-        forma.email.focus;
         return false;
 
     } else if (passwordDados === '') {
-        forma.password.focus;
         return false;
     } else {
         alert('Parabéns!,confirme seu email');
